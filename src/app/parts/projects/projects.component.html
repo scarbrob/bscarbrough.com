@@ -1,0 +1,34 @@
+<div class="projects" id="Projects">
+    <div class="projects-content">
+        <title>Projects</title>
+        <div class="project-showcase-details">
+            <div *ngFor="let i of projectList" class="showcase-project">
+                <div *ngIf="i.showcase" class="showcase-details">
+                    <div class="showcase-name"><a href={{i.link}} target="_blank">{{i.name}}</a></div>
+                    <div class="showcase-details">
+                        <img src={{i.image}} width=250px height=310px class="showcase-image"/>
+                        <div class="showcase-description">
+                            <p>{{i.description}}</p>
+                        </div>
+                        <div class="showcase-technologies" *ngFor="let t of i.technologies">
+                            {{t}}&nbsp;
+                        </div>
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div *ngFor="let i of projectList" class="non-showcase-project">
+            <div *ngIf="i.showcase === false" class="non-showcase-details">
+                <div class="non-showcase-name"><a href={{i.link}} target="_blank">{{i.name}}</a></div>
+                <div class="non-showcase-description">
+                    <p>{{i.description}}</p>
+                </div>
+                <div class="non-showcase-technologies" *ngFor="let t of i.technologies">
+                    {{t}}&nbsp;
+                </div>
+                &nbsp;
+            </div>
+        </div>
+    </div>
+</div>

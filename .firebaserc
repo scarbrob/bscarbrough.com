@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "my-website-1551c"
+  },
+  "targets": {
+    "my-website-1551c": {
+      "hosting": {
+        "bscarbrough": [
+          "my-website-1551c"
+        ]
+      }
+    }
+  }
+}
