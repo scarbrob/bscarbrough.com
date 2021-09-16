@@ -2,3 +2,36 @@
     margin-top: -10px;
 }
 
+.carousel img{
+    width: 520px;
+    height: 600px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.carousel-technologies{
+    display: inline;
+}
+
+.card-technologies{
+    display: inline;
+}
+
+.carousel-caption{
+    color:black;
+}
+
+.projects{
+    background-color: aquamarine;
+    padding-top: 50px;
+}
+
+.text-muted{
+    display: inline;
+}
+
+.card-group{
+    padding-top: 50px;
+}

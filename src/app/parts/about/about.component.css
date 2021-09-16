@@ -1,7 +1,25 @@
 .about-content-list {
     column-count: 2;
+    width: 700px;
 }
 
 .about-content-descriptor{
     margin-bottom: -20px;
+}
+
+.about-content p {
+    width: 750px;
+    font-size: 25;
+
+
+}
+
+.about{
+    padding: 200px
+
+}
+
+.about-content-list li{
+    list-style: none;
+    color: purple;
 }

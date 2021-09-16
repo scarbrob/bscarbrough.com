@@ -7,7 +7,10 @@ import { AboutComponent } from './parts/about/about.component';
 import { ExperienceComponent } from './parts/experience/experience.component';
 import { ProjectsComponent } from './parts/projects/projects.component';
 import { IntroComponent } from './parts/intro/intro.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NavBarComponent } from './parts/nav-bar/nav-bar.component';
+import { MDBBootstrapModule} from 'angular-bootstrap-md'
+
 
 @NgModule({
   declarations: [
@@ -15,12 +18,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AboutComponent,
     ExperienceComponent,
     ProjectsComponent,
-    IntroComponent
+    IntroComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    NgbCarouselModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

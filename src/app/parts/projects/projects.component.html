@@ -2,33 +2,89 @@
     <div class="projects-content">
         <title>Projects</title>
         <div class="project-showcase-details">
-            <div *ngFor="let i of projectList" class="showcase-project">
-                <div *ngIf="i.showcase" class="showcase-details">
-                    <div class="showcase-name"><a href={{i.link}} target="_blank">{{i.name}}</a></div>
-                    <div class="showcase-details">
-                        <img src={{i.image}} width=250px height=310px class="showcase-image"/>
-                        <div class="showcase-description">
+            <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'" [interval]="'10000'"
+                [noPause]="false">
+                <mdb-carousel-item *ngFor="let i of projectFeatured" class="carousel-item">
+                    <div class="view w-100">
+                        <img class="d-block" src="{{i.image}}" alt="{{i.name}}" />
+                        <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive"><a href={{i.link}} target="_blank">{{i.name}}</a></h3>
+                        <div class="carousel-description">
                             <p>{{i.description}}</p>
                         </div>
-                        <div class="showcase-technologies" *ngFor="let t of i.technologies">
+                        <div class="carousel-technologies" *ngFor="let t of i.technologies">
                             {{t}}&nbsp;
                         </div>
-                        &nbsp;
                     </div>
-                </div>
-            </div>
+                </mdb-carousel-item>
+            </mdb-carousel>
         </div>
-        <div *ngFor="let i of projectList" class="non-showcase-project">
-            <div *ngIf="i.showcase === false" class="non-showcase-details">
-                <div class="non-showcase-name"><a href={{i.link}} target="_blank">{{i.name}}</a></div>
-                <div class="non-showcase-description">
-                    <p>{{i.description}}</p>
-                </div>
-                <div class="non-showcase-technologies" *ngFor="let t of i.technologies">
-                    {{t}}&nbsp;
-                </div>
-                &nbsp;
-            </div>
+        <div class="card-group">
+            <mdb-card *ngFor="let i of projectNotFeatured">
+                <mdb-card-body>
+                    <mdb-card-title>
+                        <div class="card-title">
+                            <h5><a href={{i.link}} target="_blank">{{i.name}}</a></h5>
+                        </div>
+                    </mdb-card-title>
+                    <mdb-card-text>
+                        {{i.description}}
+                    </mdb-card-text>
+                    <mdb-card-text>
+                        <div class="card-technologies" *ngFor="let t of i.technologies">
+                            <small class="text-muted">
+                                {{t}}&nbsp;
+                            </small>
+                        </div>
+                    </mdb-card-text>
+                </mdb-card-body>
+            </mdb-card>
         </div>
     </div>
 </div>
+
+
+
+
+<!-- <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'" [interval]="'10000'" [noPause]="false">
+    <mdb-carousel-item *ngFor="let i of projectFeatured" class="carousel-item">
+        <div class="view w-100">
+            <img class="d-block" src="{{i.image}}" alt="{{i.name}}" />
+            <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive"><a href={{i.link}} target="_blank">{{i.name}}</a></h3>
+            <div class="carousel-description">
+                <p>{{i.description}}</p>
+            </div>
+            <div class="carousel-technologies" *ngFor="let t of i.technologies" fxLayout="row">
+                {{t}}&nbsp;
+            </div>
+        </div>
+    </mdb-carousel-item>
+</mdb-carousel> -->
+
+
+<!-- <div class="card-group">
+    <mdb-card *ngFor="let i of projectNotFeatured" class="card-test">
+        <mdb-card-body>
+            <mdb-card-title>
+                <div class="card-title">
+                    <h5><a href={{i.link}} target="_blank">{{i.name}}</a></h5>
+                </div>
+            </mdb-card-title>
+            <mdb-card-text>
+                {{i.description}}
+            </mdb-card-text>
+            <mdb-card-text>
+                <div class="card-technologies" *ngFor="let t of i.technologies">
+                    <small class="text-muted">
+                        {{t}}&nbsp;
+                    </small>
+                </div>
+            </mdb-card-text>
+        </mdb-card-body>
+    </mdb-card>
+</div> -->

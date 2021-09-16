@@ -1,0 +1,25 @@
+.intro-hello p{
+    font-size: 20px;
+}
+
+.intro-name p{
+    font-size: 60px;
+    padding-left: 50px;
+    font-weight: bold;
+    padding-top: -50px;
+}
+
+.intro{
+    padding: 200px;
+}
+
+.intro-i-like p{
+    padding-left: 350px;
+    font-size: 25px;
+}
+
+.intro-summary p{
+    width: 550px;
+    padding-left: 50px;
+
+}
