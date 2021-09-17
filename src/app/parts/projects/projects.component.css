@@ -1,5 +1,7 @@
-.non-showcase-name + .non-showcase-description{
-    margin-top: -10px;
+::ng-deep .carousel{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
 }
 
 .carousel img{
@@ -9,6 +11,16 @@
     margin-left: auto;
     margin-right: auto;
 
+}
+
+::ng-deep .carousel-control-prev-icon:after{
+    content: '<';
+    color: midnightblue;
+}
+
+::ng-deep .carousel-control-next-icon:after{
+    content: '>';
+    color: midnightblue;
 }
 
 .carousel-technologies{
@@ -24,8 +36,8 @@
 }
 
 .projects{
-    background-color: aquamarine;
-    padding-top: 50px;
+    padding: 150px;
+    padding-top: 100px;
 }
 
 .text-muted{
@@ -33,5 +45,26 @@
 }
 
 .card-group{
-    padding-top: 50px;
+    padding-top: 30px;
+}
+
+h5{
+    font-size: 15px;
+}
+
+/* Page Title CSS */
+
+::ng-deep .mat-progress-bar-fill::after {
+    background: purple;
+}
+
+.mat-progress-bar{
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.projects-title-name{
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-align: center;
 }

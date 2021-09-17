@@ -4,7 +4,9 @@
             <p>Hello, my name is</p>
         </div>
         <div class="intro-name">
-            <p>Benjamin Scarbrough.</p>
+            <ngx-parallax-scroll [config]="ngParallaxConf">
+                <p>Benjamin Scarbrough.</p>
+            </ngx-parallax-scroll>
         </div>
         <div class="intro-i-like">
             <p>I love cutting edge technologies.</p>
@@ -15,5 +17,10 @@
                 the world through the discovery and development of next-generation technologies.
             </p>
         </div>
+    </div>
+    <div class="rocket-gif">
+        <ngx-parallax-scroll [config]="ngParallaxConf">
+            <img class="parallax-img" src="../../../assets/rocket.gif" />
+        </ngx-parallax-scroll>
     </div>
 </div>

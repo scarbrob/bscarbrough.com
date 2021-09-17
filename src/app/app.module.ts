@@ -9,7 +9,12 @@ import { ProjectsComponent } from './parts/projects/projects.component';
 import { IntroComponent } from './parts/intro/intro.component';
 import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavBarComponent } from './parts/nav-bar/nav-bar.component';
-import { MDBBootstrapModule} from 'angular-bootstrap-md'
+import { MDBBootstrapModule} from 'angular-bootstrap-md';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import {MatTabsModule} from '@angular/material/tabs';
+import { NgxParallaxScrollModule } from 'ngx-parallax-scroll';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+
 
 
 @NgModule({
@@ -26,7 +31,11 @@ import { MDBBootstrapModule} from 'angular-bootstrap-md'
     AppRoutingModule,
     NgbModule,
     NgbCarouselModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    BrowserAnimationsModule,
+    MatTabsModule,
+    NgxParallaxScrollModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

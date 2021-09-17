@@ -8,18 +8,47 @@
 }
 
 .about-content p {
-    width: 750px;
-    font-size: 25;
-
-
+    width: 850px;
+    font-size: 18px;
 }
 
 .about{
-    padding: 200px
+    padding: 150px;
+    margin-bottom: 550px;
 
 }
 
 .about-content-list li{
     list-style: none;
     color: purple;
+    font-size: 15px;
+}
+
+.about-my-image{
+    float:left;
+}
+.about-content{
+    float: right;
+}
+
+.about-my-image:hover {
+    box-shadow: 10px 10px 50px #ec0ace;
+    border: solid 1px #60E7CC;
+}
+
+/* Page Title CSS */
+
+::ng-deep .mat-progress-bar-fill::after {
+    background: purple;
+}
+
+.mat-progress-bar{
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.about-title-name{
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-align: center;
 }

@@ -3,6 +3,7 @@ import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 
 
 
+
 export interface ProjectData {
   name: string,
   description: string,
@@ -31,7 +32,7 @@ export class ProjectsComponent implements OnInit {
     },
     {
       name: "UPS Safe",
-      description: "Designed and created a JavaScript web application using a MySQL database capable of handling thousands of simultaneous post requests.",
+      description: "Designed, created, and stress tested a JavaScript web application using a MySQL database capable of handling thousands of simultaneous post requests.",
       technologies: ["Node.js", "Express.js", "JavaScript", "MySQL", "AWS"],
       image: "../../../assets/ups_safe.png",
       link: "https://github.com/gpinkard/Safe-And-Sound"

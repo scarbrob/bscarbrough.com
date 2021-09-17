@@ -1,9 +1,55 @@
-p + ul {
-    margin-top: -10px;
-}
 
 .experience{
-    display: flex;
-    justify-content: center;
+    padding: 150px;
+    margin-bottom: 410px;
+}
 
+.experience-content{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.position-header{
+    font-size: 20px;
+}
+
+.company-header{
+    font-size: 20px;
+}
+
+.location-header{
+    font-style: italic;
+    font-size: 15px;
+}
+
+.position-and-company{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+::ng-deep .mat-tab-label{
+    min-width: 25px !important;
+    font-size: 15px;
+    font-weight: 700;
+    color:midnightblue;
+  }
+
+::ng-deep .mat-tab-label:hover {
+    background-color: whitesmoke;
+}
+/* Page Title CSS */
+
+::ng-deep .mat-progress-bar-fill::after {
+    background: purple;
+}
+
+.mat-progress-bar{
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.experience-title-name{
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-align: center;
 }

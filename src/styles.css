@@ -2,7 +2,7 @@
 @import '~mdb-ui-kit/css/mdb.min.css';
 
 body{
-    margin: 0px;
-    padding: 0px;
-    /*background-color: #1cebeb; */
+    background-color: snow;
+    color: midnightblue;
+    font-family: serif !important;
 }
