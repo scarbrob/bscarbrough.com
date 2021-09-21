@@ -15,6 +15,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { NgxParallaxScrollModule } from 'ngx-parallax-scroll';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { DomSanitizer } from "@angular/platform-browser";
+import {MatRippleModule} from '@angular/material/core';
 
 
 
@@ -36,7 +37,8 @@ import { DomSanitizer } from "@angular/platform-browser";
     BrowserAnimationsModule,
     MatTabsModule,
     NgxParallaxScrollModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatRippleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
