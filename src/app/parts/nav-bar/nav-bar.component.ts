@@ -5,7 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './nav-bar.component.html',
   styleUrls: ['./nav-bar.component.css']
 })
+
 export class NavBarComponent implements OnInit {
+
+  logo = "../../../assets/bscarbrough.png";
+  resume = "../../../assets/Benjamin Scarbrough_Resume.pdf";
 
   constructor() { }
 

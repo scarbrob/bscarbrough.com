@@ -1,54 +1,107 @@
+/* 
+@author Benjamin Scarbrough
+@version 1.0.0
+This is the CSS file for the about component of the bscarbrough.com project.
+*/
+
+.about {
+    padding: 150px;
+    margin-bottom: 550px;
+    display: block;
+}
+
+a:visited, a:link {
+    color: #512da8;
+}
+
+/* CSS for the about text. */
+.about-content {
+    float: right; 
+    width: 60%;
+}
+
+.about-content p {
+    font-size: 18px;
+}
+
+.about-content-descriptor {
+    margin-bottom: -20px;
+}
+
 .about-content-list {
     column-count: 2;
     width: 700px;
 }
 
-.about-content-descriptor{
-    margin-bottom: -20px;
-}
-
-.about-content p {
-    width: 850px;
-    font-size: 18px;
-}
-
-.about{
-    padding: 150px;
-    margin-bottom: 550px;
-
-}
-
-.about-content-list li{
+.about-content-list li {
     list-style: none;
-    color: purple;
-    font-size: 15px;
+    color: #512da8;
+    font-size: 16px;
 }
 
-.about-my-image{
+/* CSS for the image next to the about text. */
+
+.about-my-image {
     float:left;
-}
-.about-content{
-    float: right;
+    position: relative;
 }
 
 .about-my-image:hover {
-    box-shadow: 10px 10px 50px #ec0ace;
-    border: solid 1px #60E7CC;
+    box-shadow: 10px 10px 50px #512da8;
+}
+
+.about-my-image:hover .about-my-image-text {
+    opacity: 1
+}
+
+.about-my-image-text {
+    position: absolute;
+    font-style: italic;
+    opacity: 0;
+    top: 0;
+    font-size: 15px;
+    padding: 5px;
+}
+
+/* CSS for the social media logos under the image. */
+
+.logos-and-links {
+    float: left;
+    clear: left;
+}
+
+.ll-image {
+    padding: 6px;
+}
+
+.ll-image-left {
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+}
+
+.ll-image:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.ll-image-left:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 /* Page Title CSS */
 
-::ng-deep .mat-progress-bar-fill::after {
-    background: purple;
-}
-
-.mat-progress-bar{
+.mat-progress-bar {
     padding-bottom: 5px;
     margin-bottom: 20px;
 }
 
-.about-title-name{
+.about-title-name {
     font-size: 30px;
     padding-bottom: 10px;
     text-align: center;
+    color: #512da8;
 }

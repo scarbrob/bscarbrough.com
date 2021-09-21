@@ -1,15 +1,22 @@
+<!-- 
+@author Benjamin Scarbrough
+@version 1.0.0
+This is the HTML file for the nav-bar component of the bscarbrough.com project.
+ -->
+
+<!doctype html>
 <nav class="navbar navbar-expand-sm navbar-light" id="Navbar">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">
-                <img src="assets/bscarbrough.png" width="30" height="30" class="d-inline-block align-top" alt="">
-            Benjamin M. Scarbrough</a>
+                <img src="{{logo}}" width="30" height="30" class="d-inline-block align-top" alt="">
+                Benjamin M. Scarbrough</a>
         </div>
         <div class="navbar-nav fixed-right">
-            <a class="nav-item nav-link active" href="#Intro">Introduction</a>
             <a class="nav-item nav-link active" href="#About">About Me</a>
             <a class="nav-item nav-link active" href="#Experience">Experience</a>
             <a class="nav-item nav-link active" href="#Projects">Projects</a>
+            <a class="nav-item nav-link active resume" href="{{resume}}" download>Resume</a>
         </div>
     </div>
 </nav>

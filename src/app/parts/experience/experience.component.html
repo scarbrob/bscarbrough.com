@@ -1,3 +1,10 @@
+<!-- 
+@author Benjamin Scarbrough
+@version 1.0.0
+This is the HTML file for the experience component of the bscarbrough.com project.
+ -->
+
+<!doctype html>
 <div class="experience" id="Experience">
     <div class="experience-title">
         <div class="experience-title-name">
@@ -7,13 +14,12 @@
         <mat-progress-bar mode="query"></mat-progress-bar>
     </div>
     <div class="experience-content">
-        <title>Experience </title>
         <mat-tab-group dynamicHeight mat-align-tabs="center">
-            <mat-tab *ngFor="let i of workExperience" label="{{i.company}}">
+            <mat-tab *ngFor="let i of workExperience" label="{{i.title}}">
                 <div class="position-and-company">
                     <span class="position-header">{{i.position}}</span>
-                    <span class="company-header"> - {{i.company}}</span>
-                    <span class="location-header"> - {{i.location}}</span>
+                    <span class="company-header">{{i.company}}</span>
+                    <span class="location-header">{{i.location}}</span>
                     <br />
                     <span class="date-header">{{i.date}}</span>
                     <br />

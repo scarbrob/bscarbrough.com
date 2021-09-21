@@ -1,39 +1,46 @@
-.intro-hello p{
-    font-size: 20px;
-    padding-bottom: 10px;
-}
+/* 
+@author Benjamin Scarbrough
+@version 1.0.0
+This is the CSS file for the intro component of the bscarbrough.com project.
+*/
 
-.intro-name p{
-    font-size: 60px;
-    padding-left: 50px;
-    font-weight: bold;
-    padding-bottom: 5px;
-    color: purple;
-}
-
-.intro{
+.intro {
     padding: 150px;
     margin-bottom: 550px;
 }
 
-.intro-i-like p{
-    padding-left: 350px;
+.intro-details {
+    float: left;
+}
+
+.intro-hello p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.intro-name p {
+    font-size: 60px;
+    padding-left: 50px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    color: #512da8;
+}
+
+.intro-i-like p {
+    padding-left: 375px;
     font-size: 25px;
     padding-top: 10px;
 }
 
-.intro-summary p{
-    width: 550px;
+.intro-summary p {
+    width: 610px;
     padding-left: 50px;
-    font-size: 15px;
-
+    font-size: 16px;
 }
 
-.intro-details{
-    float: left;
-}
+/* CSS for the super secret rocket.gif. */
 
-.rocket-gif{
+.rocket-gif {
     float: right;
     padding-top: 300px;
     padding-bottom: 150px;
@@ -41,8 +48,12 @@
     opacity:0;
 }
 
-.rocket-gif:hover{
+.rocket-gif:hover {
     opacity: 1;
-    
+    cursor: default;
+}
+
+.rocket-gif a{
+    cursor: default;
 }
 

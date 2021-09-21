@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import {MatTabsModule} from '@angular/material/tabs';
 import { NgxParallaxScrollModule } from 'ngx-parallax-scroll';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { DomSanitizer } from "@angular/platform-browser";
 
 
 

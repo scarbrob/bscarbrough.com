@@ -1,7 +1,21 @@
-.navbar .navbar-nav a{
+/* 
+@author Benjamin Scarbrough
+@version 1.0.0
+This is the CSS file for the nav-bar component of the bscarbrough.com project.
+*/
+
+.navbar {
+    box-shadow: none;
+}
+
+.navbar .navbar-nav a {
     color: midnightblue;
 }
 
-.navbar a{
+.navbar a {
     color: midnightblue;
+}
+
+.resume {
+    border-left: solid 1px #512da8;
 }

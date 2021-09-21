@@ -1,3 +1,10 @@
+<!-- 
+@author Benjamin Scarbrough
+@version 1.0.0
+This is the HTML file for the projects component of the bscarbrough.com project.
+ -->
+
+<!doctype html>
 <div class="projects" id="Projects">
     <div class="projects-title">
         <div class="projects-title-name">
@@ -7,9 +14,8 @@
         <mat-progress-bar mode="indeterminate"></mat-progress-bar>
     </div>
     <div class="projects-content">
-        <title>Projects</title>
         <div class="project-showcase-details">
-            <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'" [interval]="'10000'"
+            <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'" [interval]="'10000'" [noPause]="false"
                 [noPause]="false">
                 <mdb-carousel-item *ngFor="let i of projectFeatured" class="carousel-item">
                     <div class="view w-100">
@@ -28,24 +34,26 @@
                 </mdb-carousel-item>
             </mdb-carousel>
         </div>
-        <div class="card-group">
-            <mdb-card *ngFor="let i of projectNotFeatured">
+        <div class="card-group row">
+            <mdb-card *ngFor="let i of projectNotFeatured" class="card-individual">
                 <mdb-card-body>
                     <mdb-card-title>
                         <div class="card-title">
                             <h5><a href={{i.link}} target="_blank">{{i.name}}</a></h5>
                         </div>
                     </mdb-card-title>
-                    <mdb-card-text>
-                        {{i.description}}
-                    </mdb-card-text>
-                    <mdb-card-text>
-                        <div class="card-technologies" *ngFor="let t of i.technologies">
-                            <small class="text-muted">
-                                {{t}}&nbsp;
-                            </small>
-                        </div>
-                    </mdb-card-text>
+                    <div class="card-description">
+                        <mdb-card-text>
+                            <a>{{i.description}}</a>
+                        </mdb-card-text>
+                        <mdb-card-text>
+                            <div class="card-technologies" *ngFor="let t of i.technologies">
+                                <small class="text-muted">
+                                    <a>{{t}}</a>&nbsp;
+                                </small>
+                            </div>
+                        </mdb-card-text>
+                    </div>
                 </mdb-card-body>
             </mdb-card>
         </div>

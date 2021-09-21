@@ -1,3 +1,10 @@
+<!-- 
+@author Benjamin Scarbrough
+@version 1.0.0
+This is the HTML file for the intro component of the bscarbrough.com project.
+ -->
+
+<!doctype html>
 <div class="intro" id="Intro">
     <div class="intro-details">
         <div class="intro-hello">
@@ -12,15 +19,17 @@
             <p>I love cutting edge technologies.</p>
         </div>
         <div class="intro-summary">
-            <p>I am an Innovative and forward-thinking computer scientist currently residing in Seattle, Wa seeking
-                to make a positive impact on
-                the world through the discovery and development of next-generation technologies.
+            <p>I am a driven, curious, and innovative software engineer currently residing in Seattle, WA specializing
+                in developing high quality applications and websites by applying creative and elegant solutions to
+                complex problems.
             </p>
         </div>
     </div>
     <div class="rocket-gif">
         <ngx-parallax-scroll [config]="ngParallaxConf">
-            <img class="parallax-img" src="../../../assets/rocket.gif" />
+            <a href="{{rocket_link}}" target="_blank">
+                <img class="parallax-img" src="{{rocket_gif}}" />
+            </a>
         </ngx-parallax-scroll>
     </div>
 </div>

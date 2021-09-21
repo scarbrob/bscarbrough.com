@@ -1,3 +1,10 @@
+<!-- 
+@author Benjamin Scarbrough
+@version 1.0.0
+This is the HTML file for the about component of the bscarbrough.com project.
+ -->
+
+<!doctype html>
 <div class="about" id="About">
     <div class="about-title">
         <div class="about-title-name">
@@ -7,42 +14,59 @@
         <mat-progress-bar mode="indeterminate"></mat-progress-bar>
     </div>
     <div class="about-content">
-        <title>About Me</title>
         <p>Hello! I'm Benjamin (Ben for short), a software engineer based in Seattle, WA who has a love for space and
-            cutting edge technologies.
-            I am innovative, forward-thinking and have demonstrated ability to find and apply creative and elegant
-            solutions to complex web and software
-            development problems through the use of Agile methods and a great ability to work in a team environment.
+            cutting-edge technologies. My desire is to gain the skills and experience necessary to take on the
+            impossible and make a difference in the world through the innovation and development of next generation
+            technology, allowing humanity to always be prepared for the unknown. I am innovative, forward thinking, and
+            driven to find and apply both creative and elegant solutions to complex problems using collaboration, big
+            picture thinking, and agile methods. In addition, my time at PopOver and the University of Puget Sound
+            allowed me to demonstrate my ability to design, develop, and maintain software, quickly learn new skills,
+            and successfully and ethically work with and lead a team.
         </p>
 
+        <p>Shortly after graduating from the <a href="{{ups_link}}" target="_blank">University of Puget Sound</a>
+            I joined PopOver, the startup of a fellow Puget Sound graduate, where I assisted in brainstorming,
+            developing, and documenting the original protype build, and ultimately deploying and testing the
+            application. This experience has allowed me to hone my problem-solving skills and gain a great understanding
+            of full-stack development and the Systems Engineering product lifestyle. Since the start of the
+            <a href="{{covid_link}}" target="_blank">COVID-19</a> pandemic I have been keeping my software developing
+            skills honed while I find my next adventure.
+        </p>
 
-        <p>Shortly after graduating from the <a href="https://www.pugetsound.edu" target="_blank">University of Puget
-                Sound</a>
-            I joined PopOver, the startup of another Puget Sound graduate, where I helped develop an app allowing
-            college students
-            to find local, miscellaneous jobs that fit in to their busy schedules. I have since shifted my focus to
-            personal projects
-            in order to keep my skills up during the COVID-19 pandemic</p>
-
-        <p class="about-content-descriptor">A few technologies I have been working with recently are:</p>
+        <p class="about-content-descriptor">Here are a few technologies I have been working with recently:</p>
         <div class="about-content-list">
             &nbsp;
             <ul>
+                <li>Java</li>
                 <li>JavaScript</li>
+                <li>Python</li>
                 <li>Angular</li>
-                <li>Node.js</li>
-                <li>MySQL</li>
             </ul>
             &nbsp;
             <ul>
+                <li>MySQL</li>
                 <li>HTML & CSS</li>
-                <li>Python</li>
-                <li>Java</li>
-                <li>React</li>
+                <li>Object Oriented Programming</li>
+                <li>Node.js</li>
             </ul>
         </div>
     </div>
     <div class="about-my-image">
-        <img src="../../../assets/Ben_Mount Taranaki.png" width="400px" height="300px" />
+        <img src="{{my_image}}" class="about-image" width="400px" height="300px" />
+        <div class="about-my-image-text">Mount Taranaki - 8261'</div>
+    </div>
+    <div class="logos-and-links">
+        <!-- <a href="{{twitch_link}}" target="_blank">
+            <img src="{{twitch_image}}" class="ll-image-left" width="50px" height="50px">
+        </a> -->
+        <a href="{{github_link}}" target="_blank">
+            <img src="{{github_image}}" class="ll-image-left" width="50px" height="50px">
+        </a>
+        <a href="{{linkedin_link}}" target="_blank">
+            <img src="{{linkedin_image}}" class="ll-image" width="60px" height="50px">
+        </a>
+        <a href="{{gmail_link}}" target="_blank">
+            <img src="{{gmail_image}}" class="ll-image" width="55px" height="50px">
+        </a>
     </div>
 </div>

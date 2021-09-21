@@ -5,4 +5,10 @@ body{
     background-color: snow;
     color: midnightblue;
     font-family: serif !important;
+    
+}
+
+/* Changes the color of the progress bar (the divider between sections). */
+.mat-progress-bar-fill::after {
+    background: #512da8;
 }
