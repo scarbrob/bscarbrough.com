@@ -33,9 +33,14 @@ This is the HTML file for the about component of the bscarbrough.com project.
             skills honed while I find my next adventure.
         </p>
 
-        <p class="about-content-descriptor">Here are a few technologies I have been working with recently:</p>
+        <p class="about-content-descriptor">Here's a taste of the skills I bring to the Agile environment:</p>
         <div class="about-content-list">
             &nbsp;
+            <ul>
+                <li *ngFor="let tech of technologies">{{tech}}</li>
+            </ul>
+
+            <!-- &nbsp;
             <ul>
                 <li>Java</li>
                 <li>JavaScript</li>
@@ -48,7 +53,7 @@ This is the HTML file for the about component of the bscarbrough.com project.
                 <li>HTML & CSS</li>
                 <li>Object Oriented Programming</li>
                 <li>Node.js</li>
-            </ul>
+            </ul> -->
         </div>
     </div>
     <div class="about-my-image">

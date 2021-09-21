@@ -78,6 +78,7 @@ This is the CSS file for the projects component of the bscarbrough.com project.
 
 .card-group {
     padding-top: 30px;
+    margin-right: -6px;
     display: flex;
     flex-wrap: wrap;
     /* flex-wrap: wrap-reverse; */ /* comment this line with the one above to reverse the wrap of the card group.*/
