@@ -34,32 +34,6 @@ This is the CSS file for the experience component of the bscarbrough.com project
     margin-bottom: 5px;
 }
 
-/* CSS for the Label Bar. */
-
-::ng-deep .mat-tab-label {
-    min-width: 25px !important;
-    font-size: 15px;
-    font-weight: 700;
-    color:midnightblue;
-}
-
-::ng-deep .mat-tab-label:hover {
-    background-color: whitesmoke;
-}
-
-::ng-deep .mat-tab-header-pagination-chevron {
-    border-color: midnightblue;
-}
-
-::ng-deep .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron {
-    border-color: #666699;
-}
-
-::ng-deep .mat-tab-header-pagination-disabled:hover {
-    -webkit-animation: flicker-out-1 3s linear both;
-    animation: flicker-out-1 3s linear both;
-}
-
 /* Page Title CSS */
 
 .mat-progress-bar {

@@ -12,3 +12,74 @@ body{
 .mat-progress-bar-fill::after {
     background: #512da8;
 }
+
+/* CSS for carousel. (formerly ::ng-deep code) */
+
+.carousel {
+    margin-left: auto;
+    margin-right: auto;
+    /* Add xpx to height for  */
+    height: 750px;
+    font-size: 15px;
+}
+
+.carousel-indicators li{
+    background-color:midnightblue;
+}
+
+.carousel-indicators {
+    top: 95%;
+}
+
+.carousel-control-prev-icon:after {
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    content: "";
+    height: 10px;
+    width: 10px;
+    color: midnightblue;
+    box-sizing: border-box;
+    display: block;
+    transform: rotate(-135deg);
+    float:left;
+    cursor: pointer;
+}
+
+.carousel-control-next-icon:after {
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    content: "";
+    height: 10px;
+    width: 10px;
+    color: midnightblue;
+    box-sizing: border-box;
+    display: block;
+    transform: rotate(45deg);
+    float:right;
+    cursor: pointer;
+}
+
+/* CSS for the Label Bar. (formerly ::ng-deep code) */
+
+.mat-tab-label {
+    min-width: 25px !important;
+    font-size: 15px;
+    font-weight: 700;
+    color:midnightblue;
+}
+.mat-tab-label:hover {
+    background-color: whitesmoke;
+}
+
+.mat-tab-header-pagination-chevron {
+    border-color: midnightblue;
+}
+
+.mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron {
+    border-color: #666699;
+}
+
+.mat-tab-header-pagination-disabled:hover {
+    -webkit-animation: flicker-out-1 3s linear both;
+    animation: flicker-out-1 3s linear both;
+}
