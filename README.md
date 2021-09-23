@@ -1,5 +1,8 @@
 # Bscarbrough.com
 
+This project currently does not support mobile devices.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2. Currently using version 12.2.6.
 
 ## Development server

@@ -44,7 +44,8 @@ This is the CSS file for the intro component of the bscarbrough.com project.
     float: right;
     padding-top: 300px;
     padding-bottom: 150px;
-    padding-left: 150px;
+    width: 30%;
+    /* padding-left: 150px; */
     opacity:0;
 }
 
