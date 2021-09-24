@@ -1,6 +1,6 @@
 <!-- 
 @author Benjamin Scarbrough
-@version 1.0.1
+@version 1.0.2
 This is the HTML file for the projects component of the bscarbrough.com project.
  -->
 
@@ -18,9 +18,12 @@ This is the HTML file for the projects component of the bscarbrough.com project.
             <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'" [interval]="'10000'"
                 [noPause]="false">
                 <mdb-carousel-item *ngFor="let i of projectFeatured" class="carousel-item">
-                    <a href={{i.link}} target="_blank">
-                        <img class="d-block w-100" src="{{i.image}}" alt="{{i.name}}" />
-                    </a>
+                    <div class="view w-100">
+                        <a href={{i.link}} target="_blank">
+                            <img class="d-block" src="{{i.image}}" alt="{{i.name}}" />
+                            <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+                        </a>
+                    </div>
                     <div class="carousel-caption">
                         <h5>{{i.name}}</h5>
                         <!-- <h3 class="h3-responsive"><a href={{i.link}} target="_blank">{{i.name}}</a></h3> -->
