@@ -38,11 +38,11 @@ export class ExperienceComponent implements OnInit {
       company: " - PopOver",
       location: " - Tacoma WA",
       date: "May 2019 - May 2020",
-      summary: "Determined and formulated policies for the company’s technical direction. Created and integrated new and innovative features for the PopOver application.",
-      description: ["Used Swift and wireframes to design and create the account creation, verification, login, and password reset forms from scratch.",
-        "Created and administrated a Git repository and complex SQL database consisting of confidential client information.",
-        "Assisted with the creation of various PowerPoint presentations and talking points in order to secure funding from potential investors through victory in various startup competitions.",
-        "Led and assisted a team of software engineers in creating use cases for the application, and any operations issues they encountered."
+      summary: "Part of a team of 6 individuals developing the PopOver startup, designed to provide every college student with an opportunity for financial liberation by facilitating the relationship between college students and their community members.",
+      description: ["•	Used Swift and wireframes to design and create the account creation, verification, login, and password reset forms.",
+        "Created and maintained a Git repository and a secure SQL database for client information.",
+        "Assisted with creating PowerPoint presentations and developing talking points for potential investors.",
+        "Led a team of 3 software engineers in creating use cases for the application and resolving operations issues."
       ]
     },
     {
@@ -52,9 +52,9 @@ export class ExperienceComponent implements OnInit {
       location: " - Tacoma WA",
       date: "January 2018 - December 2019",
       summary: "Supported a campus wide improvement plan designed to create a safe, pleasant, and functional environment.",
-      description: ["Led a team of student grounds workers in completing various grounds maintenance tasks.",
-        "Acknowledged by the Grounds Manager as crucial to the success of the Grounds department due to great leadership, problem solving, and time management skills.",
-        "Made on the fly decisions about which tasks to complete and how to meet deadlines for various campus events."
+      description: ["Led a team of student grounds workers in maintaining campus grounds and safety.",
+        "Acknowledged by the Grounds Manager for great leadership ability and time management skills.",
+        "Prioritized tasks to complete projects and meet campus event deadlines."
       ]
     },
     {
@@ -75,10 +75,10 @@ export class ExperienceComponent implements OnInit {
       company: " - State of Alaska Department of Transportation",
       location: " - Anchorage AK",
       date: "May 2018 - August 2018",
-      summary: "Collected data from over 800 individual road segments in support of a multi-million-dollar statewide initiative to maintain and upgrade road infrastructure.",
-      description: ["Chose to take on a leadership role and successfully led my group to complete the most work of any prior group of interns.",
-        "Vital in meeting the State of Alaska’s data collection goals during a time when the department was short staffed.",
-        "Reduced workload for the full-time staff by excelling at my duties and taking on extra tasks and responsibilities."
+      summary: "Collected data from over 800 individual Southcentral Alaska road segments in support of a $650 million-dollar statewide initiative to maintain and upgrade road infrastructure.",
+      description: ["Provided leadership for the 2 interns in my group and completed more work than any prior group of interns.",
+        "Collected traffic data in the field using PEEK ADR 1000 traffic counters and downloaded the data in the laboratory daily.",
+        "Reduced workload for the full-time staff by taking on extra tasks and responsibilities including mapping the roads with GPS and traveling to remote towns to collect traffic data."
       ]
     },
     {

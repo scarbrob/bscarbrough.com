@@ -59,70 +59,70 @@ export class ProjectsComponent implements OnInit {
     },
     {
       name: "AI Image Recognition",
-      description: "Created an AI using Python and neural networks to detect up to 5 different objects within a given image.",
+      description: "An AI created using Python and neural networks to detect up to 5 different objects within a given image.",
       technologies: ["Python", "Tensorflow", "Convolutional Neural Network"],
       image: "",
       link: "https://github.com/scarbrob/Image-Recognition"
     },
     {
       name: "Getting MEAN",
-      description: "Created a web application for locating and rating user submitted coffee shops, based on Simon Holmes book Getting MEAN with Mongo, Express, Angular, and Node.",
+      description: "A web application for locating and rating user submitted coffee shops, based on Simon Holmes book Getting MEAN with Mongo, Express, Angular, and Node.",
       technologies: ["MongoDB", "Express.js", "Angular", "Node.js"],
       image: "",
       link: "https://github.com/scarbrob/Getting-MEAN"
     },
     {
       name: "Bitwise Hash",
-      description: "Created a Java application for converting a user inputted string into binary.",
+      description: "A Java program for converting a user inputted string into binary.",
       technologies: ["Java"],
       image: "",
       link: "https://github.com/scarbrob/Bitwise-Hash"
     },
     {
       name: "Binomial Calculator",
-      description: "Created a Java application that calculates the binomial coefficient of two user inputted numbers.",
+      description: "A Java program that calculates the binomial coefficient of two user inputted numbers.",
       technologies: ["Java"],
       image: "",
       link: "https://github.com/scarbrob/Binomial-Calculator"
     },
     {
       name: "Word Checker - Binary Search Tree",
-      description: "Created a Java application that uses a BST to search for user input within a given .lex file.",
+      description: "A Java program that uses a BST to search for user input within a given .lex file.",
       technologies: ["Java"],
       image: "",
       link: "https://github.com/scarbrob/Word-Checker-BST"
     },
     {
       name: "Word Checker - Trie",
-      description: "Created a Java application that uses a Trie to search for user input within a given .trie file in constant time.",
+      description: "A Java program that uses a Trie to search for user input within a given .trie file in constant time.",
       technologies: ["Java"],
       image: "",
       link: "https://github.com/scarbrob/Word-Checker-Trie"
     },
     {
       name: "Word Checker - TreeSet",
-      description: "Created a Java application that uses a Set to search for user input within a given .set file in logarithmic time.",
+      description: "A Java program that uses a Set to search for user input within a given .set file in logarithmic time.",
       technologies: ["Java"],
       image: "",
       link: "https://github.com/scarbrob/Word-Checker"
     },
     {
       name: "Sliding Puzzle Solver",
-      description: "Created a Python application that uses the A* algorithm to solve sliding puzzles.",
+      description: "A Python program that uses the A* algorithm to solve sliding puzzles.",
       technologies: ["Python"],
       image: "",
       link: "https://github.com/scarbrob/Sliding-Puzzle-Solver"
     },
     {
       name: "Connect Four Bot",
-      description: "Created a Python bot that plays connect four at a user defined difficulty. I bet you can't beat it!",
+      description: "A Python bot that plays connect four at a user defined difficulty. I bet you can't beat it!",
       technologies: ["Python"],
       image: "",
       link: "https://github.com/scarbrob/Connect-Four-Bot"
     },
     {
       name: "Voting Predictor",
-      description: "Created a Python program that uses a decision tree and TSV data file to predict how representatives will vote.",
+      description: "A Python program that uses a decision tree and TSV data file to predict how representatives will vote.",
       technologies: ["Python"],
       image: "",
       link: "https://github.com/scarbrob/Voting-Predictor"
