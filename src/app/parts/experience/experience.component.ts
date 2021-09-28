@@ -27,7 +27,7 @@ export class ExperienceComponent implements OnInit {
       location: " - Tacoma WA",
       date: "May 2020 - Present",
       summary: "Designed, developed, and tested applications, scripts, and video game addons using my knowledge of the best coding practices in order to meet specific client needs.",
-      description: ["Used Lua to create an in game addon to randomly select a form of transportation (mount) in World of Warcraft Classic.",
+      description: ["Used Lua to create an in-game add-on to randomly select a form of transportation (mount) in World of Warcraft Classic.",
         "Created a script using Python to facilitate the procurement of a PlayStation 5 by automatically adding it to the cart, filling out the necessary forms, and checking out.",
         "Created an AI using YOLOv4 to automatically detect player and computer-controlled characters in the video game Escape from Tarkov."
       ]
@@ -39,7 +39,7 @@ export class ExperienceComponent implements OnInit {
       location: " - Tacoma WA",
       date: "May 2019 - May 2020",
       summary: "Part of a team of 6 individuals developing the PopOver startup, designed to provide every college student with an opportunity for financial liberation by facilitating the relationship between college students and their community members.",
-      description: ["•	Used Swift and wireframes to design and create the account creation, verification, login, and password reset forms.",
+      description: ["Used Swift and wireframes to design and create the account creation, verification, login, and password reset forms.",
         "Created and maintained a Git repository and a secure SQL database for client information.",
         "Assisted with creating PowerPoint presentations and developing talking points for potential investors.",
         "Led a team of 3 software engineers in creating use cases for the application and resolving operations issues."

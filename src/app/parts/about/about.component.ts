@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class AboutComponent implements OnInit {
 
-  technologies = ["Java", "Python", "JavaScript", "Angular", "SQL", "HTML", "CSS", "Object Oriented Programming", "Node.js",
+  technologies = ["Java", "Python", "JavaScript", "Angular", "SQL", "HTML", "CSS", "OOP", "Node.js",
     "Express.js", "AWS", "Full Stack Development", "Driven", "Innovative", "Strategic", "Curious", "Proactive", "Analytical",
     "Interpersonal Skills", "Collaborative Team Player", "Problem Solving", "Critical Thinking", "Creative Thinking", "Multitasking",
     "Priority Management", "Detail Oriented", "Spanish Fluency", "Microsoft Office"]
