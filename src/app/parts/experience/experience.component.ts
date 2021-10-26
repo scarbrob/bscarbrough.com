@@ -26,7 +26,7 @@ export class ExperienceComponent implements OnInit {
       company: "",
       location: " - Tacoma WA",
       date: "May 2020 - Present",
-      summary: "Designed, developed, and tested applications, scripts, and video game addons using my knowledge of the best coding practices in order to meet specific client needs.",
+      summary: "Designed, developed, and tested applications, scripts, and video game add-ons using my knowledge of the best coding practices to meet specific client needs.",
       description: ["Used Lua to create an in-game add-on to randomly select a form of transportation (mount) in World of Warcraft Classic.",
         "Created a script using Python to facilitate the procurement of a PlayStation 5 by automatically adding it to the cart, filling out the necessary forms, and checking out.",
         "Created an AI using YOLOv4 to automatically detect player and computer-controlled characters in the video game Escape from Tarkov."
@@ -51,7 +51,7 @@ export class ExperienceComponent implements OnInit {
       company: " - University of Puget Sound",
       location: " - Tacoma WA",
       date: "January 2018 - December 2019",
-      summary: "Supported a campus wide improvement plan designed to create a safe, pleasant, and functional environment.",
+      summary: "Supported a campus-wide improvement plan designed to create a safe, pleasant, and functional environment.",
       description: ["Led a team of student grounds workers in maintaining campus grounds and safety.",
         "Acknowledged by the Grounds Manager for great leadership ability and time management skills.",
         "Prioritized tasks to complete projects and meet campus event deadlines."
@@ -90,9 +90,9 @@ export class ExperienceComponent implements OnInit {
       summary: "Interacted with credit union members over the phone to provide exceptional support for membership and all products and services.",
       description: [
         "Utilized the credit unions' computer system to update information and post deposits/payments, as well as provide members with account history information, explanations of dividend interest calculations, and loan payment amortization.",
-        "Assisted new and existing members in initiation, maintenance, and closure of credit union products and services, explained the features and benefits of each and cross sold the products and services to the members.",
+        "Assisted new and existing members in initiation, maintenance, and closure of credit union products and services, explained the features and benefits of each and cross-sold the products and services to the members.",
         "Resolved members' product or service complaints by performing activities such as backdating payments, adjusting fees, or connecting them with a specific department.",
-        "Filled out and emailed or faxed forms to members in order to provide in person services over the phone."
+        "Filled out and emailed or faxed forms to members to provide in-person services over the phone."
 
       ]
     },
@@ -102,7 +102,7 @@ export class ExperienceComponent implements OnInit {
       company: " - Credit Union 1",
       location: " - Anchorage AK",
       date: "May 2015 - August 2015, May 2016 - August 2016",
-      summary: "Interacted with credit union members in person to provide exceptional support for all types of currency transactions.",
+      summary: "Interacted with credit union members in-person to provide exceptional support for all types of currency transactions.",
       description: ["Responsible for the safety, accuracy, and handling of up to 1 million USD on any given day.",
         "Ensured the accuracy of all member transactions through the use of computers, calculators, and adding machines.",
         "Cashed and deposited checks after verifying the signature was correct, the written and numerical amounts agreed, and ensuring the accounts had sufficient funds.",

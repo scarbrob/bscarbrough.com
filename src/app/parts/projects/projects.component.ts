@@ -28,7 +28,7 @@ export class ProjectsComponent implements OnInit {
     },
     {
       name: "UPS Safe",
-      description: "Designed, created, and stress tested a JavaScript web application responsible for ensuring that in the event of a campus wide emergency all university students and faculty are able to check in with campus security while both on and off campus.",
+      description: "Designed, created, and stress-tested a JavaScript web application responsible for ensuring that in the event of a campus-wide emergency all university students and faculty can check in with campus security while both on and off-campus.",
       technologies: ["Node.js", "Express.js", "JavaScript", "MySQL", "AWS", "BlazeMeter"],
       image: "../../../assets/ups_safe.png",
       link: "https://github.com/gpinkard/Safe-And-Sound"
@@ -45,7 +45,7 @@ export class ProjectsComponent implements OnInit {
   projectNotFeatured: ProjectData[] = [
     {
       name: "Timber",
-      description: "Designed and created an application that allows users to submit profiles of trees (image, name, description, and geo coordinates) and match with profiles submitted by other users.",
+      description: "Designed and created an application that allows users to submit profiles of trees (image, name, description, and geo-coordinates) and match with profiles submitted by other users.",
       technologies: ["MySQL", "PHP", "AWS"],
       image: "",
       link: "https://github.com/sarawille7/timber"
@@ -66,21 +66,21 @@ export class ProjectsComponent implements OnInit {
     },
     {
       name: "Getting MEAN",
-      description: "A web application for locating and rating user submitted coffee shops, based on Simon Holmes book Getting MEAN with Mongo, Express, Angular, and Node.",
+      description: "A web application for locating and rating user-submitted coffee shops, based on Simon Holmes book Getting MEAN with Mongo, Express, Angular, and Node.",
       technologies: ["MongoDB", "Express.js", "Angular", "Node.js"],
       image: "",
       link: "https://github.com/scarbrob/Getting-MEAN"
     },
     {
       name: "Bitwise Hash",
-      description: "A Java program for converting a user inputted string into binary.",
+      description: "A Java program for converting a user-inputted string into binary.",
       technologies: ["Java"],
       image: "",
       link: "https://github.com/scarbrob/Bitwise-Hash"
     },
     {
       name: "Binomial Calculator",
-      description: "A Java program that calculates the binomial coefficient of two user inputted numbers.",
+      description: "A Java program that calculates the binomial coefficient of two user-inputted numbers.",
       technologies: ["Java"],
       image: "",
       link: "https://github.com/scarbrob/Binomial-Calculator"
@@ -115,7 +115,7 @@ export class ProjectsComponent implements OnInit {
     },
     {
       name: "Connect Four Bot",
-      description: "A Python bot that plays connect four at a user defined difficulty. I bet you can't beat it!",
+      description: "A Python bot that plays connect four at a user-defined difficulty. I bet you can't beat it!",
       technologies: ["Python"],
       image: "",
       link: "https://github.com/scarbrob/Connect-Four-Bot"
