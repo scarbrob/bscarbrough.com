@@ -21,11 +21,21 @@ export class ExperienceComponent implements OnInit {
   workExperience: ExperienceData[] = [
 
     {
+      title: "Lockheed Martin Space",
+      position: "Software Engineer Associate",
+      company: "",
+      location: " - Tacoma WA",
+      date: "February 2022 - Present",
+      summary: "Write and maintain performant code for over 120 internal applications in support of the customer.",
+      description: ["Work with a variety of different languages, and frameworks, such as Java, C#, and Visual Basic."
+      ]
+    },
+    {
       title: "Freelance",
       position: "Freelance",
       company: "",
       location: " - Tacoma WA",
-      date: "May 2020 - Present",
+      date: "May 2020 - February 2022",
       summary: "Designed, developed, and tested applications, scripts, and video game add-ons using my knowledge of the best coding practices to meet specific client needs.",
       description: ["Used Lua to create an in-game add-on to randomly select a form of transportation (mount) in World of Warcraft Classic.",
         "Created a script using Python to facilitate the procurement of a PlayStation 5 by automatically adding it to the cart, filling out the necessary forms, and checking out.",
