@@ -24,15 +24,17 @@ export class ExperienceComponent implements OnInit {
       title: "Lockheed Martin Space",
       position: "Software Engineer Associate",
       company: "",
-      location: " - Tacoma WA",
+      location: "",
       date: "February 2022 - Present",
-      summary: "Write and maintain performant code for over 120 internal applications in support of the customer.",
-      description: ["Work with a variety of different languages, and frameworks, such as Java, C#, and Visual Basic."
+      summary: "Create and maintain performant code in support of over 120 essential internal customer-facing applications.",
+      description: ["Use C# and Java to create applications for automating customer tasks.",
+      "Explore technologies new to the team (such as Tableau) to replace older technologies.",
+      "Provide software support for other teams at the site."
       ]
     },
     {
       title: "Freelance",
-      position: "Freelance",
+      position: "Freelance Software Engineer",
       company: "",
       location: " - Tacoma WA",
       date: "May 2020 - February 2022",
